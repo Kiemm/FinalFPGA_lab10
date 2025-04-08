@@ -1,0 +1,366 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Journey\He thong Nhung tren fpga\lab10\simulation\modelsim
+vadder4
+ITIha4d[20A:jZKXWXAJWe1
+V<zj@a0cL>>zBD20^JgXkL3
+Z1 dD:\Journey\He thong Nhung tren fpga\lab10\simulation\modelsim
+Z2 w1744108084
+Z3 8D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v
+Z4 FD:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v
+L0 35
+Z5 OV;L;10.1d;51
+r1
+31
+Z6 !s108 1744109421.936000
+Z7 !s107 D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v|
+Z8 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v|
+Z9 o-vlog01compat -work work -O0
+Z10 !s92 -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0
+!i10b 1
+!s100 DKo2XUf^j?BnjUJQQ7>><1
+!s85 0
+!s101 -O0
+vadder4_5
+IQNa40<1D3IZA]=nm0]a=n1
+VXeEd0<21mM=S_aIiMf7TZ2
+R1
+R2
+R3
+R4
+L0 16
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 AkoRaUVhfQGPQBfTAPX1^3
+!s85 0
+!s101 -O0
+vaddsub_9bit
+In;3=DXVeXA@C0S<1Qa0kJ3
+Vn^GQnejOELfSzjYhmc]?30
+R1
+w1743925326
+8D:/Journey/He thong Nhung tren fpga/lab10/addsub_9bit.v
+FD:/Journey/He thong Nhung tren fpga/lab10/addsub_9bit.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 7aNbXknWhlT;h2QMGeR_10
+!s85 0
+!s108 1744109421.305000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/addsub_9bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/addsub_9bit.v|
+!s101 -O0
+vbin2bcd
+I[WME?AHQGJTfKdK8G4UCd2
+VZe?=EKaHS0M=7NJPV>b5m3
+R1
+R2
+R3
+R4
+L0 100
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 n_0N6C6TeWn=_Pg`DmfB[1
+!s85 0
+!s101 -O0
+vcomparator
+INWLjQ_AEWm594g0dM7Vd10
+VbYX<7P4HWfdR868;T2OP20
+R1
+w1744086464
+8D:/Journey/He thong Nhung tren fpga/lab10/comparator.v
+FD:/Journey/He thong Nhung tren fpga/lab10/comparator.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 Bd;DUKQIG=jFJINe2X8zG1
+!s85 0
+!s108 1744109421.511000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/comparator.v|
+!s101 -O0
+vcontrol_unit
+IX88lTZJ<YdV4=V6V;ZPk62
+V38F6B65Caa@4h71@_a0em3
+R1
+w1744106373
+8D:/Journey/He thong Nhung tren fpga/lab10/control_unit.v
+FD:/Journey/He thong Nhung tren fpga/lab10/control_unit.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 E7AL06OK68d9XL1oei?393
+!s85 0
+!s108 1744109421.582000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/control_unit.v|
+!s101 -O0
+vcounter_9bit
+I0UA11D=G?NaTHf17dPb>o0
+V26_F;IJo5Bo0jha25Zz<>2
+R1
+w1743996870
+8D:/Journey/He thong Nhung tren fpga/lab10/counter_9bit.v
+FD:/Journey/He thong Nhung tren fpga/lab10/counter_9bit.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 ^DoVZ5e`aN`V^=Z9g5zcD1
+!s85 0
+!s108 1744109421.663000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/counter_9bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/counter_9bit.v|
+!s101 -O0
+vCPU
+IzF>l`RX5Bnm;eD4M4KNh?3
+V>GWm4b`EBXm=NL6@C18^X2
+R1
+w1744088842
+8D:/Journey/He thong Nhung tren fpga/lab10/CPU.v
+FD:/Journey/He thong Nhung tren fpga/lab10/CPU.v
+L0 1
+R5
+r1
+31
+R9
+R10
+n@c@p@u
+!i10b 1
+!s100 B8A[;ezc^enY^c0C3QmnD1
+!s85 0
+!s108 1744109421.738000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/CPU.v|
+!s101 -O0
+vdouble_dabble_stage
+If?ZiN?zF@?FcLSAFFgWEi3
+VYcanZ1nIRze@;ji9e@fY42
+R1
+R2
+R3
+R4
+L0 50
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 Jl83o0Q53M6aRCe@_CPNg1
+!s85 0
+!s101 -O0
+vfull_adder
+I2faGX7XL3MC4=H57;OIK`1
+VDXIz@A8ZlZIe0^?_MInkU1
+R1
+R2
+R3
+R4
+L0 3
+R5
+r1
+31
+R6
+R7
+R8
+R9
+R10
+!i10b 1
+!s100 I5J7:TMKSF;:;^WIRil_V1
+!s85 0
+!s101 -O0
+vhexto7seg
+IoH^FhEFBdL2mY@O9@gni;2
+VPUXRI:<jDbGd8;]Xn:e2o2
+R1
+w1744108105
+8D:/Journey/He thong Nhung tren fpga/lab10/hexto7seg.v
+FD:/Journey/He thong Nhung tren fpga/lab10/hexto7seg.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 ^ze>3]XEXZVfoifaOai8G0
+!s85 0
+!s108 1744109422.049000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/hexto7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/hexto7seg.v|
+!s101 -O0
+vlab10
+I3mPnCG1IUR`^`Ch6af7c[2
+V<ZbiO4Z>>oG6HPPAHlRfa1
+R1
+w1744108459
+8D:/Journey/He thong Nhung tren fpga/lab10/lab10.v
+FD:/Journey/He thong Nhung tren fpga/lab10/lab10.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 ^ZnGU8FPa0VZU_>=:5LEL0
+!s85 0
+!s108 1744109422.124000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/lab10.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/lab10.v|
+!s101 -O0
+vmux_9to1
+I[Y@z]d;7^YUbXS2eBcO8=3
+VZNDV>UFLAC6[Fl82o1J2:0
+R1
+w1743994516
+8D:/Journey/He thong Nhung tren fpga/lab10/mux_9to1.v
+FD:/Journey/He thong Nhung tren fpga/lab10/mux_9to1.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 @YAUPXeI3hb:GT[C981R:0
+!s85 0
+!s108 1744109422.199000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/mux_9to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/mux_9to1.v|
+!s101 -O0
+vregister_1bit
+Id5mOj@;GodAhGQj>XDaY43
+Vi7FQ=CQkDf>Ph`1T1ndo73
+R1
+w1744029697
+8D:/Journey/He thong Nhung tren fpga/lab10/register_1bit.v
+FD:/Journey/He thong Nhung tren fpga/lab10/register_1bit.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 RIFG=MGlkoEmdahAW8Z3n2
+!s85 0
+!s108 1744109422.271000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/register_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/register_1bit.v|
+!s101 -O0
+vregister_9bit
+IWL=E1Q6lKiD;bV6ESR76J1
+V0a83aY;YF@YZQN4h1>FFV3
+R1
+w1743996835
+8D:/Journey/He thong Nhung tren fpga/lab10/register_9bitv.v
+FD:/Journey/He thong Nhung tren fpga/lab10/register_9bitv.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 X2ITBJRD46bCJ?11n76Y11
+!s85 0
+!s108 1744109422.343000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/register_9bitv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/register_9bitv.v|
+!s101 -O0
+vrom_led
+I6WXJcc[e]UETn0k3TKnkR2
+Vl;IH3ZdlF0d4@S?jIAk:G2
+R1
+w1744107681
+8D:/Journey/He thong Nhung tren fpga/lab10/rom_led_de1.v
+FD:/Journey/He thong Nhung tren fpga/lab10/rom_led_de1.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 9PlTlz`Mj>NP@M^oNURW11
+!s85 0
+!s108 1744109422.417000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/rom_led_de1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/rom_led_de1.v|
+!s101 -O0
+vrom_program
+I6gNQoGZ`ZR0nih_HbE0Wh3
+VfZ:la2MhA;3JO7l^jDg3g3
+R1
+w1744109295
+8D:/Journey/He thong Nhung tren fpga/lab10/rom_program.v
+FD:/Journey/He thong Nhung tren fpga/lab10/rom_program.v
+L0 1
+R5
+r1
+31
+R9
+R10
+!i10b 1
+!s100 ia9P91`k?iSLcTofR>AN10
+!s85 0
+!s108 1744109422.490000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/rom_program.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/rom_program.v|
+!s101 -O0
+vtimer
+!i10b 1
+!s100 5P`SazeNeWHBCTK1MM9Ja3
+IFEJ0foE6odA=oWP=mZH0G3
+VFiUkU>[aG[4QNAh;iZm?03
+R1
+w1744107562
+8D:/Journey/He thong Nhung tren fpga/lab10/timer.v
+FD:/Journey/He thong Nhung tren fpga/lab10/timer.v
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1744109422.566000
+!s107 D:/Journey/He thong Nhung tren fpga/lab10/timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Journey/He thong Nhung tren fpga/lab10|-O0|D:/Journey/He thong Nhung tren fpga/lab10/timer.v|
+!s101 -O0
+R9
+R10

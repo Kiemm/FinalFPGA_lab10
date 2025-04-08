@@ -1,0 +1,13 @@
+module comparator (
+    input  wire [8:0] A,       // Số A - 9 bit
+    input  wire [8:0] B,       // Số B - 9 bit
+    output wire       A_eq_B,  // A == B
+    output wire       A_gt_B,  // A > B greater than
+    output wire       A_lt_B   // A < B less than
+);
+
+    assign A_eq_B = (A == B);
+    assign A_gt_B = (A > B);
+    assign A_lt_B = (A < B);
+
+endmodule

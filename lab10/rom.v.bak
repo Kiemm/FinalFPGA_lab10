@@ -1,0 +1,31 @@
+module rom (
+    input [4:0] addr,  // 5-bit address to access 32 locations
+    output reg [8:0] data // 9-bit instruction output
+);
+
+    always @(*) begin
+        case (addr)
+            5'h00: data = 9'b001001000; // mvi R1, #1
+            5'h01: data = 9'b000000001; 
+            5'h02: data = 9'b001010000; // mvi R2, #0
+            5'h03: data = 9'b000000000; 
+            5'h04: data = 9'b001011000; // Loop mvi R3, #010000000
+            5'h05: data = 9'b010000000;
+            5'h06: data = 9'b101010011; 
+            5'h07: data = 9'b010010001; 
+            5'h08: data = 9'b001011000; 
+            5'h09: data = 9'b111111111;
+            5'h0A: data = 9'b000101111; // add R2, R1
+            5'h0B: data = 9'b001100000; // Outer mvi R4, #111111111
+            5'h0C: data = 9'b111111111;
+            5'h0D: data = 9'b000000111; // mv R0, R7
+            5'h0E: data = 9'b011100001; // Inner sub R4, R1
+            5'h0F: data = 9'b110111000; 
+            5'h10: data = 9'b011011001; 
+            5'h11: data = 9'b110111101; 
+            5'h12: data = 9'b001111000; 
+            5'h13: data = 9'b000000100; // mvnz R7, R0
+            default: data = 9'b000000000; // Default to NOP
+        endcase
+    end
+endmodule

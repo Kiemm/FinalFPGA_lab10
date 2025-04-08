@@ -1,0 +1,72 @@
+`timescale 1ns/1ps
+module control_unit_tb;
+
+    // Inputs
+    reg clk;
+    reg reset;
+    reg [8:0] IR;
+
+    // Outputs
+    wire [3:0] mux_sel;
+    wire [14:0] en_reg;
+    wire incr_pc;
+    wire addsub_sel;
+    wire W;
+
+    // Instantiate the control_unit
+    control_unit uut (
+        .clk(clk),
+        .reset(reset),
+        .IR(IR),
+        .mux_sel(mux_sel),
+        .en_reg(en_reg),
+        .incr_pc(incr_pc),
+        .addsub_sel(addsub_sel),
+        .W(W)
+    );
+
+    // Clock generation: 10 ns period (toggle every 5 ns)
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+    end
+
+    // Test sequence
+    initial begin
+        // Khởi tạo giá trị ban đầu
+        reset = 1;
+        IR = 9'b000_000_000;  // giá trị mặc định
+
+        // Áp dụng reset trong vài chu kỳ
+        #15;
+        reset = 0;
+
+        // -----------------------------
+        // Test lệnh mv: mv Rx, Ry (opcode 3'b000)
+        // Ví dụ: Rx = 001, Ry = 010 => IR = {opcode, Rx, Ry} = {3'b000, 3'b001, 3'b010}
+        IR = {3'b000, 3'b001, 3'b010};
+        #100;  // chờ vài chu kỳ clock để quan sát tín hiệu
+
+        // -----------------------------
+        // Test lệnh miv: miv Rx, #D (opcode 3'b001)
+        // Ví dụ: Rx = 010, dữ liệu ngay được cung cấp bên ngoài (ở đây dùng mẫu giá trị dummy)
+        IR = {3'b001, 3'b010, 3'b000};
+        #100;
+
+        // -----------------------------
+        // Test lệnh add: add Rx, Ry (opcode 3'b010)
+        // Ví dụ: Rx = 011, Ry = 100
+        IR = {3'b010, 3'b011, 3'b100};
+        #100;
+
+        // -----------------------------
+        // Test lệnh sub: sub Rx, Ry (opcode 3'b011)
+        // Ví dụ: Rx = 101, Ry = 110
+        IR = {3'b011, 3'b101, 3'b110};
+        #100;
+
+        // Kết thúc mô phỏng
+        $finish;
+    end
+
+endmodule

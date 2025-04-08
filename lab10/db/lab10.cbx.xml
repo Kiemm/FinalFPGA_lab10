@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="lab10">
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab10|CPU:CPU_unit|addsub_9bit:addsub_unit|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_rpi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|lab10|rom_program:memoey|altsyncram:memory_rtl_0" CBX_FILE_NAME="altsyncram_8sg1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

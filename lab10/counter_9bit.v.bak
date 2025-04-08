@@ -1,0 +1,14 @@
+module counter_9bit (
+    input wire clk,
+    input wire en_write,  // Enable to load a value
+    input wire incr_pc,   // Enable to increment PC
+    input wire [8:0] d,   // Input data to load
+    output reg [8:0] q    // Output value
+);
+    always @(posedge clk) begin
+        if (en_write)
+            q <= d;
+        else if (incr_pc)
+            q <= q + 1;
+    end
+endmodule

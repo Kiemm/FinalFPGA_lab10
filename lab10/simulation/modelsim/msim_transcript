@@ -1,0 +1,1304 @@
+# Reading D:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do lab10_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/rom_program.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_program
+# 
+# Top level modules:
+# 	rom_program
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/register_9bitv.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register_9bit
+# 
+# Top level modules:
+# 	register_9bit
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/counter_9bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter_9bit
+# 
+# Top level modules:
+# 	counter_9bit
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/mux_9to1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_9to1
+# 
+# Top level modules:
+# 	mux_9to1
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/addsub_9bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module addsub_9bit
+# 
+# Top level modules:
+# 	addsub_9bit
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/lab10.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab10
+# 
+# Top level modules:
+# 	lab10
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/register_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register_1bit
+# 
+# Top level modules:
+# 	register_1bit
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/rom_led_de1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_led
+# 
+# Top level modules:
+# 	rom_led
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/comparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/timer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# vlog -vlog01compat -work work +incdir+D:/Journey/He\ thong\ Nhung\ tren\ fpga/lab10 {D:/Journey/He thong Nhung tren fpga/lab10/hexto7seg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hexto7seg
+# 
+# Top level modules:
+# 	hexto7seg
+# 
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/addsub_9bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module addsub_9bit
+# 
+# Top level modules:
+# 	addsub_9bit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/comparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/counter_9bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter_9bit
+# 
+# Top level modules:
+# 	counter_9bit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/hexto7seg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hexto7seg
+# 
+# Top level modules:
+# 	hexto7seg
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/lab10.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab10
+# 
+# Top level modules:
+# 	lab10
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/mux_9to1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_9to1
+# 
+# Top level modules:
+# 	mux_9to1
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/register_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register_1bit
+# 
+# Top level modules:
+# 	register_1bit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/register_9bitv.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register_9bit
+# 
+# Top level modules:
+# 	register_9bit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/rom_led_de1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_led
+# 
+# Top level modules:
+# 	rom_led
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/rom_program.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_program
+# 
+# Top level modules:
+# 	rom_program
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/timer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+vsim work.lab10
+# vsim work.lab10 
+# Loading work.lab10
+# Loading work.timer
+# Loading work.rom_program
+# Loading work.rom_led
+# Loading work.CPU
+# Loading work.register_9bit
+# Loading work.counter_9bit
+# Loading work.register_1bit
+# Loading work.comparator
+# Loading work.addsub_9bit
+# Loading work.mux_9to1
+# Loading work.control_unit
+# ** Error: (vsim-3037) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): Missing instance name in instantiation of 'bin2bcd'.
+# 
+#         Region: /lab10
+# ** Error: (vsim-3037) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(117): Missing instance name in instantiation of 'hexto7seg'.
+# 
+#         Region: /lab10
+# ** Error: (vsim-3037) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(118): Missing instance name in instantiation of 'hexto7seg'.
+# 
+#         Region: /lab10
+# ** Error: (vsim-3037) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(120): Missing instance name in instantiation of 'hexto7seg'.
+# 
+#         Region: /lab10
+# ** Error: (vsim-3037) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(121): Missing instance name in instantiation of 'hexto7seg'.
+# 
+#         Region: /lab10
+# Error loading design
+# A time value could not be extracted from the current line
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/lab10.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab10
+# 
+# Top level modules:
+# 	lab10
+vsim work.lab10
+# vsim work.lab10 
+# Loading work.lab10
+# Loading work.timer
+# Loading work.rom_program
+# Loading work.rom_led
+# Loading work.CPU
+# Loading work.register_9bit
+# Loading work.counter_9bit
+# Loading work.register_1bit
+# Loading work.comparator
+# Loading work.addsub_9bit
+# Loading work.mux_9to1
+# Loading work.control_unit
+# Loading work.bin2bcd
+# Loading work.double_dabble_stage
+# Loading work.adder4_5
+# Loading work.full_adder
+# Loading work.adder4
+# Loading work.hexto7seg
+# ** Warning: (vsim-3017) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(75): [TFMPC] - Too few port connections. Expected 9, found 8.
+# 
+#         Region: /lab10/LED
+# ** Warning: (vsim-3722) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(75): [TFMPC] - Missing connection for port 'rdata'.
+# 
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(103): [PCDPC] - Port size (16 or 16) does not match connection size (15) for port 'en_reg'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/CPU.v(24).
+# 
+#         Region: /lab10/CPU_unit
+# ** Warning: (vsim-3017) D:/Journey/He thong Nhung tren fpga/lab10/CPU.v(257): [TFMPC] - Too few port connections. Expected 12, found 11.
+# 
+#         Region: /lab10/CPU_unit/uut
+# ** Warning: (vsim-3722) D:/Journey/He thong Nhung tren fpga/lab10/CPU.v(257): [TFMPC] - Missing connection for port 'W'.
+# 
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (16 or 16) does not match connection size (8) for port 'bin'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(101).
+# 
+#         Region: /lab10/decodebcd
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'thousands'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(102).
+# 
+#         Region: /lab10/decodebcd
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'hundreds'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(103).
+# 
+#         Region: /lab10/decodebcd
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'tens'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(104).
+# 
+#         Region: /lab10/decodebcd
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'ones'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(105).
+# 
+#         Region: /lab10/decodebcd
+add wave -position insertpoint  \
+sim:/lab10/SW \
+sim:/lab10/KEY \
+sim:/lab10/CLOCK_50 \
+sim:/lab10/HEX0 \
+sim:/lab10/HEX1 \
+sim:/lab10/HEX2 \
+sim:/lab10/HEX3 \
+sim:/lab10/LEDR \
+sim:/lab10/LEDG \
+sim:/lab10/clk \
+sim:/lab10/re \
+sim:/lab10/run \
+sim:/lab10/w \
+sim:/lab10/Din_bus \
+sim:/lab10/Addr_bus \
+sim:/lab10/Dout_bus \
+sim:/lab10/step \
+sim:/lab10/IR_process \
+sim:/lab10/IR \
+sim:/lab10/R0 \
+sim:/lab10/R1 \
+sim:/lab10/R2 \
+sim:/lab10/R3 \
+sim:/lab10/R4 \
+sim:/lab10/R5 \
+sim:/lab10/R6 \
+sim:/lab10/R7 \
+sim:/lab10/A \
+sim:/lab10/G \
+sim:/lab10/addsub \
+sim:/lab10/Mux_out \
+sim:/lab10/en_reg \
+sim:/lab10/addr_rom \
+sim:/lab10/en_mem \
+sim:/lab10/en_led \
+sim:/lab10/wr_en_mem \
+sim:/lab10/wr_en_led \
+sim:/lab10/MEM0 \
+sim:/lab10/MEM1 \
+sim:/lab10/MEM2 \
+sim:/lab10/MEM3 \
+sim:/lab10/valueA \
+sim:/lab10/valueB \
+sim:/lab10/valueC \
+sim:/lab10/valueD \
+sim:/lab10/HEXA \
+sim:/lab10/HEXB \
+sim:/lab10/HEXC \
+sim:/lab10/HEXD
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: kiemh  Hostname: DESKTOP-KU8UHAJ  ProcessID: 13328
+# 
+#           Attempting to use alternate WLF file "./wlftn48m5z".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftn48m5z
+# 
+force -freeze sim:/lab10/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/lab10/re 1 0, 0 {50 ps} -r 100
+force -freeze sim:/lab10/run 1 0, 01 {50 ps} -r 100
+run
+force -freeze sim:/lab10/re 0 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/addsub_9bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module addsub_9bit
+# 
+# Top level modules:
+# 	addsub_9bit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/comparator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator
+# 
+# Top level modules:
+# 	comparator
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/counter_9bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter_9bit
+# 
+# Top level modules:
+# 	counter_9bit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/CPU.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module full_adder
+# -- Compiling module adder4_5
+# -- Compiling module adder4
+# -- Compiling module double_dabble_stage
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/hexto7seg.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module hexto7seg
+# 
+# Top level modules:
+# 	hexto7seg
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/lab10.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module lab10
+# 
+# Top level modules:
+# 	lab10
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/mux_9to1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_9to1
+# 
+# Top level modules:
+# 	mux_9to1
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/register_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register_1bit
+# 
+# Top level modules:
+# 	register_1bit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/register_9bitv.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register_9bit
+# 
+# Top level modules:
+# 	register_9bit
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/rom_led_de1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_led
+# 
+# Top level modules:
+# 	rom_led
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/rom_program.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module rom_program
+# 
+# Top level modules:
+# 	rom_program
+vlog -vlog01compat -work work {+incdir+D:/Journey/He thong Nhung tren fpga/lab10} -O0 {D:/Journey/He thong Nhung tren fpga/lab10/timer.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+vsim work.lab10
+# vsim work.lab10 
+# Loading work.lab10
+# Loading work.timer
+# Loading work.rom_program
+# Loading work.rom_led
+# Loading work.CPU
+# Loading work.register_9bit
+# Loading work.counter_9bit
+# Loading work.register_1bit
+# Loading work.comparator
+# Loading work.addsub_9bit
+# Loading work.mux_9to1
+# Loading work.control_unit
+# Loading work.bin2bcd
+# Loading work.double_dabble_stage
+# Loading work.adder4_5
+# Loading work.full_adder
+# Loading work.adder4
+# Loading work.hexto7seg
+# ** Warning: (vsim-3017) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(75): [TFMPC] - Too few port connections. Expected 9, found 8.
+# 
+#         Region: /lab10/LED
+# ** Warning: (vsim-3722) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(75): [TFMPC] - Missing connection for port 'rdata'.
+# 
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(103): [PCDPC] - Port size (16 or 16) does not match connection size (15) for port 'en_reg'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/CPU.v(24).
+# 
+#         Region: /lab10/CPU_unit
+# ** Warning: (vsim-3017) D:/Journey/He thong Nhung tren fpga/lab10/CPU.v(257): [TFMPC] - Too few port connections. Expected 12, found 11.
+# 
+#         Region: /lab10/CPU_unit/uut
+# ** Warning: (vsim-3722) D:/Journey/He thong Nhung tren fpga/lab10/CPU.v(257): [TFMPC] - Missing connection for port 'W'.
+# 
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (16 or 16) does not match connection size (8) for port 'bin'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(101).
+# 
+#         Region: /lab10/decodebcd
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'thousands'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(102).
+# 
+#         Region: /lab10/decodebcd
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'hundreds'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(103).
+# 
+#         Region: /lab10/decodebcd
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'tens'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(104).
+# 
+#         Region: /lab10/decodebcd
+# ** Warning: (vsim-3015) D:/Journey/He thong Nhung tren fpga/lab10/lab10.v(111): [PCDPC] - Port size (4 or 4) does not match connection size (1) for port 'ones'. The port definition is at: D:/Journey/He thong Nhung tren fpga/lab10/bin_to_bcd.v(105).
+# 
+#         Region: /lab10/decodebcd
+add wave -position insertpoint  \
+sim:/lab10/HEX0 \
+sim:/lab10/HEX1 \
+sim:/lab10/HEX2 \
+sim:/lab10/HEX3 \
+sim:/lab10/LEDR \
+sim:/lab10/LEDG \
+sim:/lab10/clk \
+sim:/lab10/re \
+sim:/lab10/run \
+sim:/lab10/w \
+sim:/lab10/Din_bus \
+sim:/lab10/Addr_bus \
+sim:/lab10/Dout_bus \
+sim:/lab10/step \
+sim:/lab10/IR_process \
+sim:/lab10/IR \
+sim:/lab10/R0 \
+sim:/lab10/R1 \
+sim:/lab10/R2 \
+sim:/lab10/R3 \
+sim:/lab10/R4 \
+sim:/lab10/R5 \
+sim:/lab10/R6 \
+sim:/lab10/R7 \
+sim:/lab10/A \
+sim:/lab10/G \
+sim:/lab10/addsub \
+sim:/lab10/Mux_out \
+sim:/lab10/en_reg \
+sim:/lab10/addr_rom \
+sim:/lab10/en_mem \
+sim:/lab10/en_led \
+sim:/lab10/wr_en_mem \
+sim:/lab10/wr_en_led \
+sim:/lab10/MEM0 \
+sim:/lab10/MEM1 \
+sim:/lab10/MEM2 \
+sim:/lab10/MEM3 \
+sim:/lab10/valueA \
+sim:/lab10/valueB \
+sim:/lab10/valueC \
+sim:/lab10/valueD \
+sim:/lab10/HEXA \
+sim:/lab10/HEXB \
+sim:/lab10/HEXC \
+sim:/lab10/HEXD
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: kiemh  Hostname: DESKTOP-KU8UHAJ  ProcessID: 13328
+# 
+#           Attempting to use alternate WLF file "./wlftknvfx9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftknvfx9
+# 
+force -freeze sim:/lab10/re 1 0, 0 {50 ps} -r 100
+force -freeze sim:/lab10/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/lab10/run 1 0, 01 {50 ps} -r 100
+run
+run
+force -freeze sim:/lab10/re 0 0, 0 {50 ps} -r 100
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
