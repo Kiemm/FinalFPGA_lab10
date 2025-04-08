@@ -9,7 +9,7 @@ module timer(
   if(~nRst) delay = 0; 
   else begin 
    //if (delay==35999999) //set for board (0.5s < clk <1s) 
-   if (delay == 100000) //set for testbench 
+   if (delay == 50000) //set for testbench 
     delay <=0; 
    else 
     delay <= delay +1; 

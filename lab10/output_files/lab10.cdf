@@ -4,7 +4,7 @@ JedecChain;
 	DefaultMfr(6E);
 
 	P ActionCode(Cfg)
-		Device PartName(EP2C20F484) Path("D:/Journey/He thong Nhung tren fpga/lab10/output_files/") File("lab10.sof") MfrSpec(OpMask(1));
+		Device PartName(EP2C20F484) Path("D:/Journey/He thong Nhung tren fpga/git/lab10/output_files/") File("lab10.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 
