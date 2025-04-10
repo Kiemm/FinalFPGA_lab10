@@ -1,5 +1,5 @@
 Assembler report for lab10
-Tue Apr 08 18:37:56 2025
+Tue Apr 08 21:42:24 2025
 Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
 
 
@@ -10,8 +10,8 @@ Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: D:/Journey/He thong Nhung tren fpga/lab10/output_files/lab10.sof
-  6. Assembler Device Options: D:/Journey/He thong Nhung tren fpga/lab10/output_files/lab10.pof
+  5. Assembler Device Options: D:/Journey/He thong Nhung tren fpga/git/lab10/output_files/lab10.sof
+  6. Assembler Device Options: D:/Journey/He thong Nhung tren fpga/git/lab10/output_files/lab10.pof
   7. Assembler Messages
 
 
@@ -38,7 +38,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Apr 08 18:37:56 2025 ;
+; Assembler Status      ; Successful - Tue Apr 08 21:42:24 2025 ;
 ; Revision Name         ; lab10                                 ;
 ; Top-level Entity Name ; lab10                                 ;
 ; Family                ; Cyclone II                            ;
@@ -78,37 +78,37 @@ applicable agreement for further details.
 +-----------------------------------------------------------------------------+----------+---------------+
 
 
-+------------------------------------------------------------------+
-; Assembler Generated Files                                        ;
-+------------------------------------------------------------------+
-; File Name                                                        ;
-+------------------------------------------------------------------+
-; D:/Journey/He thong Nhung tren fpga/lab10/output_files/lab10.sof ;
-; D:/Journey/He thong Nhung tren fpga/lab10/output_files/lab10.pof ;
-+------------------------------------------------------------------+
++----------------------------------------------------------------------+
+; Assembler Generated Files                                            ;
++----------------------------------------------------------------------+
+; File Name                                                            ;
++----------------------------------------------------------------------+
+; D:/Journey/He thong Nhung tren fpga/git/lab10/output_files/lab10.sof ;
+; D:/Journey/He thong Nhung tren fpga/git/lab10/output_files/lab10.pof ;
++----------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Journey/He thong Nhung tren fpga/lab10/output_files/lab10.sof ;
-+----------------+---------------------------------------------------------------------------+
-; Option         ; Setting                                                                   ;
-+----------------+---------------------------------------------------------------------------+
-; Device         ; EP2C20F484C7                                                              ;
-; JTAG usercode  ; 0x001EBFBF                                                                ;
-; Checksum       ; 0x001EBFBF                                                                ;
-+----------------+---------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/Journey/He thong Nhung tren fpga/git/lab10/output_files/lab10.sof ;
++----------------+-------------------------------------------------------------------------------+
+; Option         ; Setting                                                                       ;
++----------------+-------------------------------------------------------------------------------+
+; Device         ; EP2C20F484C7                                                                  ;
+; JTAG usercode  ; 0x00206810                                                                    ;
+; Checksum       ; 0x00206810                                                                    ;
++----------------+-------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------+
-; Assembler Device Options: D:/Journey/He thong Nhung tren fpga/lab10/output_files/lab10.pof ;
-+--------------------+-----------------------------------------------------------------------+
-; Option             ; Setting                                                               ;
-+--------------------+-----------------------------------------------------------------------+
-; Device             ; EPCS16                                                                ;
-; JTAG usercode      ; 0x00000000                                                            ;
-; Checksum           ; 0x1DD2881F                                                            ;
-; Compression Ratio  ; 3                                                                     ;
-+--------------------+-----------------------------------------------------------------------+
++------------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/Journey/He thong Nhung tren fpga/git/lab10/output_files/lab10.pof ;
++--------------------+---------------------------------------------------------------------------+
+; Option             ; Setting                                                                   ;
++--------------------+---------------------------------------------------------------------------+
+; Device             ; EPCS16                                                                    ;
+; JTAG usercode      ; 0x00000000                                                                ;
+; Checksum           ; 0x1DD2D981                                                                ;
+; Compression Ratio  ; 3                                                                         ;
++--------------------+---------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -117,13 +117,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Assembler
     Info: Version 13.0.0 Build 156 04/24/2013 SJ Web Edition
-    Info: Processing started: Tue Apr 08 18:37:55 2025
+    Info: Processing started: Tue Apr 08 21:42:23 2025
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off lab10 -c lab10
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus II 64-Bit Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 4551 megabytes
-    Info: Processing ended: Tue Apr 08 18:37:56 2025
+    Info: Processing ended: Tue Apr 08 21:42:24 2025
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

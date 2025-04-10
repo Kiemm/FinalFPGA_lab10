@@ -1,0 +1,13 @@
+module bintobcd_9bit(
+	input	 [8:0] in_Bin,
+	output [3:0] out_thousand,
+	output [3:0] out_hundred,
+	output [3:0] out_dozens,
+	output [3:0] out_unit
+);
+	assign out_thousand = (in_Bin/1000)%10;
+	assign out_hundred = (in_Bin/100)%10;
+	assign out_dozens = (in_Bin/10)%10;
+	assign out_unit = (in_Bin/1)%10;
+
+endmodule

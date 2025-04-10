@@ -2,7 +2,7 @@
 		input [9:0] SW,
 		input [3:0] KEY,
 		input CLOCK_50,
-		output [0:6] HEX0,HEX1,HEX2,HEX3,
+		output [6:0] HEX0,HEX1,HEX2,HEX3,
 		output [9:0] LEDR,
 		output [7:0] LEDG
 );
@@ -54,7 +54,7 @@
 	
 	rom_program memoey(
 								.clk(clk),         		// Clock
-								.en_write(wr_en_mem),    			// Ghi khi en_write = 1
+								.en_write(wr_en_mem),   // Ghi khi en_write = 1
 								.addr(addr_rom),        // Địa chỉ 9-bit (0–128)
 								.wdata(Dout_bus),       // Dữ liệu ghi
 								.rdata(Din_bus)        	// Dữ liệu đọc
@@ -63,10 +63,10 @@
 	/*##############  LED Display MEM  ##############*/
 	wire [8:0] MEM0,MEM1,MEM2,MEM3;
 	rom_led LED(
-					.clk(clk),         		// Clock
+					.clk(clk),         					// Clock
 					.en_write(wr_en_led),    			// Ghi khi en_write = 1
-					.addr(addr_rom),        // Địa chỉ 9-bit (0–128)
-					.wdata(Dout_bus),       // Dữ liệu ghi
+					.addr(addr_rom),        			// Địa chỉ 9-bit (0–128)
+					.wdata(Dout_bus),       			// Dữ liệu ghi
 					.MEM0(MEM0),
 					.MEM1(MEM1),
 					.MEM2(MEM2),
@@ -101,8 +101,27 @@
 		.en_reg(en_reg)
 	);
 	
-	/*##############  CPU  ##############*/
-	assign LEDG[7:0] = MEM0[7:0];
-	assign LEDR[8:0] = R2[8:0];	
+	/*##############  Board  ##############*/
+	//assign LEDG[7:0] = MEM0[7:0];
+	//assign LEDR[8:0] = R2[8:0];
+	
+	wire [3:0]valueA;
+	wire [3:0]valueB;
+	wire [3:0]valueC;
+	wire [3:0]valueD;
+	
+	bintobcd_9bit(
+					.in_Bin({2'b00,MEM0[7:0]}),
+					.out_thousand(valueA),     
+					.out_hundred(valueB),      
+					.out_tens(valueC),         
+					.out_unit(valueD)          
+	);
+	assign {LEDR[7:0],LEDG[7:0]} = {valueA,valueB,valueC,valueD};
+	
+	hexto7seg(valueD,HEX0);
+	hexto7seg(valueC,HEX1);
+	hexto7seg(valueB,HEX2);
+	hexto7seg(valueA,HEX3);	
 	
 endmodule
